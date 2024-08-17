@@ -23,8 +23,10 @@ public class Question14 {
     public static void main(String[] args)
     {
         Calculator calc = new Calculator();
-        System.out.println(calc.Add(8,9));
-        System.out.println(calc.Substraction(8,9));
-        System.out.println(calc.Division(99,9));
+        int a = 15, b= 5;
+        System.out.format("The addition of %d and %d results to %d\n",a,b,calc.Add(a,b));
+        System.out.format("The difference of %d and %d is %d\n",a,b,calc.Substraction(a,b));
+        System.out.format("The product of %d and %d is %d\n",a,b,calc.Multiplication(a,b));
+        System.out.format("The quotient when %d is divided by %d",a,b,calc.Division(a,b));
     }
 }

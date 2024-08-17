@@ -14,7 +14,7 @@ public class Question2 {
             System.out.print("Enter the string "+i+" : ");
             myStringArray[i] = sc.next();
         }
- 
+        System.out.println("Reversed String of given string are as follow respectively:");
         for(String i: myStringArray)
         {
             System.out.println(Reverse(i));;

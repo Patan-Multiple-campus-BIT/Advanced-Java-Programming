@@ -19,8 +19,8 @@ class Car
 }
 public class Question13 {
     public static void main(String[] args) {
-        Car c1 = new Car("X",2024);
-        Car c2 = new Car("Y",2022);
+        Car c1 = new Car("5n64A",2023);
+        Car c2 = new Car("b12F",2020);
         c1.displayDetails();
         c2.displayDetails();
     }

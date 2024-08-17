@@ -26,7 +26,7 @@ public class Question6 {
             {7,8}
         };
         int[][] ans= addMatrix(matrix1,matrix2);
-        System.out.println("The sum of the given matrix is: ");
+        System.out.println("The sum matrix is: ");
         for(int i = 0;i<ans.length;i++)
         {
             for(int j=0;j<ans[i].length;j++)
