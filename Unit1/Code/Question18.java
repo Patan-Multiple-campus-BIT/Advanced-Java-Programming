@@ -27,7 +27,9 @@ class Monster
 }
 public class Question18 {
 
+    @SuppressWarnings("unused")
 public static void main(String[] args) {
+    
     Monster mnstr = new Monster();
     Monster  mnster2= new Monster(10,5);
     Monster  mnster3= new Monster(10,5,4);
