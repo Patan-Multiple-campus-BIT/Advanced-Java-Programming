@@ -3,8 +3,8 @@
 
 class Kaley
 {
-    private int myAge=23;
-    private void myIntro()
+    // private int myAge=23;
+    // private void myIntro()
     {
         System.out.println("Hello Keshab here.");
     }
@@ -12,8 +12,8 @@ class Kaley
 @suppressWaring
 public class Question23 {
     public static void main(String[] args) {
-        Kaley keshab = new Kaley();
-        System.out.println("My age is: ",keshab.myAge);
-        keshab.myIntro();
+        // Kaley keshab = new Kaley();
+        // System.out.println("My age is: ",keshab.myAge);
+        // keshab.myIntro();
     }    
 }
